@@ -1,0 +1,25 @@
+### Testar api do playlist
+
+GET http://localhost:8000/
+
+
+
+
+### Cadastro de música
+
+POST http://localhost:8000/musicas
+
+{
+    "nome": "Patience",
+    "artista": "Gun n Rose",
+    "tempo": 1
+}
+
+### Pegar todas músicas
+
+GET http://localhost:8000/musicas
+
+### Pegar uma música
+
+GET http://localhost:8000/musicas/1
+

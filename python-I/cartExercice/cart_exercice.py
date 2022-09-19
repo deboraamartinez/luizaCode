@@ -1,0 +1,20 @@
+cart = []
+
+for i in range(3):
+    id_user = input('Insira o id do usuário: ')
+    id_product = input('Insira o id do produto: ')
+    price_product = input('Insira o valor do produto: ')
+    quantity_product = input('Insira a quantidade de produto: ')
+
+item = [id_user, id_product, price_product, quantity_product]
+
+print(item)
+
+
+def add_item_cart(item):
+
+    pass
+
+
+def get_all_items_cart():
+    pass
